@@ -1,0 +1,11 @@
+{
+  "java.project.sourcePaths": ["src"],
+
+  "java.project.referencedLibraries": {
+    "include": ["library/**/*.jar", "/home/username/lib/foo.jar"],
+    "exclude": ["library/sources/**"],
+    "sources": {
+      "library/bar.jar": "library/sources/bar-src.jar"
+    }
+  }
+}
